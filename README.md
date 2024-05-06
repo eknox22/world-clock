@@ -23,7 +23,6 @@ The World Clock is a web application that allows users to view the current time 
 
 Open the World Clock app in your web browser.
 View the current time for different time zones displayed on the screen.
-Use the search functionality to find specific time zones by location name or GMT offset.
 Customize the display by adding or removing time zones according to your preferences.
 
 ## Screenshots
@@ -32,7 +31,7 @@ Customize the display by adding or removing time zones according to your prefere
 
 ## Demo
 
-[Include a link to a live demo of your app if available]
+[https://momentsjs-world-clock-project.netlify.app]
 
 Contributing
 
