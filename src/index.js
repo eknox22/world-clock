@@ -16,6 +16,15 @@ function updateTime() {
   let parisTime = moment().tz("Europe/Paris");
   parisDateElement.innerHTML = parisTime.format("dddd MMMM Do YYYY");
   parisTimeElement.innerHTML = parisTime.format("HH:mm:ss");
+
+  //Nairobi
+  let nairobiElement = document.querySelector("#nairobi");
+  let nairobiDateElement = nairobiElement.querySelector(".date");
+  let nairobiTimeElement = nairobiElement.querySelector(".time");
+
+  let nairobiTime = moment().tz("Africa/Nairobi");
+  nairobiDateElement.innerHTML = nairobiTime.format("dddd MMMM Do YYYY");
+  nairobiTimeElement.innerHTML = nairobiTime.format("HH:mm:ss");
 }
 
 function updateCity(event) {
